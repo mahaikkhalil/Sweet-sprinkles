@@ -1,0 +1,10 @@
+.full-page-border {
+    background: linear-gradient(to right, red, yellow, green);
+    padding: 10px; /* Adjust to change the thickness of the "border" */
+  }
+  
+  .inner-content {
+    background-color: violet;
+    border-radius: 15px; /* Optional, gives rounded corners inside */
+  }
+  
