@@ -36,7 +36,7 @@ const Order = () => {
               ))}
             </ul>
           )}
-          <div className="mt-6 text-right">rtt
+          <div className="mt-6 text-right">
             <h2 className="text-2xl font-semibold">Total: {calculateTotal()}/-</h2>
           </div>
         </div>

@@ -78,7 +78,7 @@ const Navbar = () => {
                         </ul>
                         <button
                             onClick={() => handleClick('Order')}
-                            className=" block mt-4 sm:mt-0 mx-auto sm:mx-0 bg-gradient-to-r from-sky-200 to-red-100 text-pink-950 px-4 py-2 rounded-md flex items-center gap-2 hover:scale-105 transition-transform"
+                            className=" .block mt-4 sm:mt-0 mx-auto sm:mx-0 bg-gradient-to-r from-sky-200 to-red-100 text-pink-950 px-4 py-2 rounded-md flex items-center gap-2 hover:scale-105 transition-transform"
                         >
                             Order Now
                             <FaCartPlus className="text-xl text-blue-900" />

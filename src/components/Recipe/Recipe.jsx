@@ -1,5 +1,5 @@
 import React from 'react';
-import Cheesecake from '../../assets/Cheesecake.jfif'; 
+import cheesecake from '../../assets/cheesecake.jfif'; 
 import donut from '../../assets/donut.jfif';
 import croissant from '../../assets/croissant.jfif';
 import cake from '../../assets/cake.jfif';
@@ -10,7 +10,7 @@ import trifle from '../../assets/trifle.jfif';
 import cupcake from '../../assets/cupcake.jfif';
 
 const recipes = [
-    { id: 1, title: 'Cheese Cake', description: 'A classic Italian Cheese cake.', img: Cheesecake, recipes:'For a quick berry cheesecake, mix 1 cup graham cracker crumbs, 1/4 cup sugar, and 1/4 cup melted butter for the crust. Press into a dish. Beat 8 oz cream cheese with 1/2 cup sugar and 1 tsp vanilla. Fold in 1 cup whipped cream. Chill for 4 hours. Enjoy! Berry Sauce: In a saucepan, heat 1 cup mixed berries with 1/4 cup sugar until berries break down. Cool and spoon over the cheesecake before serving. Add your Favourite berries on the top.' }, 
+    { id: 1, title: 'CheeseCake', description: 'A classic Italian Cheese cake.', img: cheesecake, recipes:'For a quick berry cheesecake, mix 1 cup graham cracker crumbs, 1/4 cup sugar, and 1/4 cup melted butter for the crust. Press into a dish. Beat 8 oz cream cheese with 1/2 cup sugar and 1 tsp vanilla. Fold in 1 cup whipped cream. Chill for 4 hours. Enjoy! Berry Sauce: In a saucepan, heat 1 cup mixed berries with 1/4 cup sugar until berries break down. Cool and spoon over the cheesecake before serving. Add your Favourite berries on the top.' }, 
     { id: 2, title: 'Donut', description: 'A Mouth Melted Goodness.', img: donut , recipes:'To make homemade donuts, dissolve 2 1/4 tsp yeast in 1/4 cup warm milk and let sit for 5 minutes. Mix with 1/4 cup melted butter, 1/4 cup sugar, 1/2 tsp vanilla extract, 1/2 tsp salt, and 1 beaten egg. Gradually add 2 1/2 cups flour,mixing until a soft dough forms. Knead on a floured surface for 5 minutes, then let rise in a greased bowl for 1 hour. Roll out, cut into shapes, and fry in hot oil until golden brown and enjoy.'},
     { id: 3, title: 'Croissant', description: 'A flaky chocolicious croissant.', img: croissant ,  recipes:'To make croissants, prepare a dough by mixing 4 cups flour, 1/4 cup sugar, 2 1/4 tsp yeast, 1 tsp salt, 1 cup warm milk, and 1/2 cup melted butter. Let rise for 1 hour. Roll out the dough, fold in 1 cup butter, and refrigerate. Roll and fold the dough again to create layers. Cut into triangles, roll up, and shape into crescents. Let rise for 30 minutes, then bake at 375°F (190°C) for 15-20 minutes until golden brown. Cool before serving.' },
     { id: 4, title: 'Cake', description: 'A heavenly Moist chocolate Cake.', img: cake ,  recipes:'For a Moist chocolate cake, preheat your oven to 350°F (175°C) and grease a 9-inch pan. In a bowl, mix 1 3/4 cups flour, 1 1/2 cups sugar, 3/4 cup cocoa powder, 1 1/2 tsp baking powder, 1 1/2 tsp baking soda, and 1/2 tsp salt. Add 2 eggs, 1 cup milk, 1/2 cup melted butter, and 2 tsp vanilla. Mix well and bake for 30-35 minutes. Cool before frosting.'},
